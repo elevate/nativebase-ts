@@ -20,7 +20,7 @@ import OtpVerification from "./screens/OtpVerification";
 import ProductDetails from "./screens/ProductDetails";
 import Splash from "./screens/Splash";
 
-export default ({ children }: { children: React.ReactNode }) => {
+export default ({ children }: { children?: React.ReactNode }) => {
   const customTheme = extendTheme({
     config: {
       initialColorMode: "light",
